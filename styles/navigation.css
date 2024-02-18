@@ -25,3 +25,15 @@
     border-radius: 0.3em;
     background-color: rgba(61, 179, 158, 0.2);
 }
+
+.site-header a {
+    display: block;
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url('../images/car-icon1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
