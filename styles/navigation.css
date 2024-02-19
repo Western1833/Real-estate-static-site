@@ -27,13 +27,24 @@
 }
 
 .site-header a {
+    background-image: url('../images/car-icon1.png');
     display: block;
-    width: 350px;
-    height: 200px;
+    text-indent: -200vw;
+    width: 170px;
+    height: 120px;
+    overflow: hidden;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* display: block;
+    width: 115px;
+    height: 75px;
     overflow: hidden;
     text-indent: -200vw;
     background-image: url('../images/car-icon1.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-}
+    border: 1px solid black; */
