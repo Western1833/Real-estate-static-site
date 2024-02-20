@@ -28,10 +28,15 @@ a, a:hover {
     color: blue;
 }
 
-nav {
-    display: flex;
+.loggo img{
+    width: 50px;
+    background-color: #FFF;
+    border-radius: 2em;
 }
 
-nav .toggle{
-    
+nav {
+    display: flex;
+    background-color: bisque;
+    padding: 5px 20px;
+    align-items: center;
 }
