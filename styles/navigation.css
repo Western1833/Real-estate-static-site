@@ -6,7 +6,7 @@ a, a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 25px;
+    padding: 0.63em 1.56em;
     background-color: rgb(17, 157, 157);
 }
 
@@ -29,7 +29,7 @@ a, a:hover {
 }
 
 .logo img{
-    width: 50px;
+    width: 3.13em;
     background-color: #FFF;
     border-radius: 2em;
 }
@@ -37,7 +37,7 @@ a, a:hover {
 nav {
     display: flex;
     background-color: rgb(184, 158, 125);
-    padding: 5px 20px;
+    padding: 0.31em 1.25em;
     align-items: center;
 }
 
@@ -61,6 +61,6 @@ nav a:hover {
 }
 
 .toggle {
-    font-size: 30px;
+    font-size: 1.88em;
     display: none;
 }
