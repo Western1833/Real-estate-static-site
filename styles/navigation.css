@@ -7,7 +7,7 @@ a, a:hover {
     align-items: center;
     justify-content: space-between;
     padding: 10px 25px;
-    background-color: aqua;
+    background-color: rgb(17, 157, 157);
 }
 
 .top-bar span {
@@ -28,7 +28,7 @@ a, a:hover {
     color: blue;
 }
 
-.loggo img{
+.logo img{
     width: 50px;
     background-color: #FFF;
     border-radius: 2em;
@@ -36,7 +36,35 @@ a, a:hover {
 
 nav {
     display: flex;
-    background-color: bisque;
+    background-color: rgb(184, 158, 125);
     padding: 5px 20px;
     align-items: center;
+}
+
+nav a {
+    color: #FFF;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+.logo {
+    flex: 1;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1em;
+}
+
+.menu li:first-child {
+    padding-left: 1em;
+}
+
+.toggle {
+    font-size: 30px;
+    display: none;
 }
