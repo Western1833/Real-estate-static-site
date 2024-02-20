@@ -1,50 +1,37 @@
-.site-nav {
+a, a:hover {
+    text-decoration: none;
+}
+
+.top-bar {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    background-color: rgb(55, 85, 105);
-    padding: 2em;
+    padding: 10px 25px;
+    background-color: aqua;
 }
 
-.site-nav ul {
+.top-bar span {
+    color: #FFF;
+}
+
+.top-bar ul {
     display: flex;
-    list-style-type: none;
-    gap: 2em;
+    list-style: none;
+    gap: 1em;
 }
 
-.site-nav li a {
-    text-decoration: none;
-    color: white;
-    padding: 0.5em;
+.top-bar a {
+    color: #FFF;
 }
 
-.site-nav li a:hover {
-    text-decoration: none;
-    color: rgb(61, 179, 158);
-    padding: 0.5em;
-    outline: 2px solid rgb(61, 179, 158);
-    border-radius: 0.3em;
-    background-color: rgba(61, 179, 158, 0.2);
+.top-bar a:hover {
+    color: blue;
 }
 
-.site-header a {
-    background-image: url('../images/car-icon1.png');
-    display: block;
-    text-indent: -200vw;
-    width: 170px;
-    height: 120px;
-    overflow: hidden;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+nav {
+    display: flex;
 }
 
-/* display: block;
-    width: 115px;
-    height: 75px;
-    overflow: hidden;
-    text-indent: -200vw;
-    background-image: url('../images/car-icon1.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 1px solid black; */
+nav .toggle{
+    
+}
