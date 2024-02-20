@@ -1,0 +1,32 @@
+@media screen and (max-width: 600px){
+    nav {
+        display: block;
+        position: relative;
+        padding: 15px 20px;
+    }
+
+    .menu {
+        margin-top: 15px;
+        display: none;
+    }
+
+    .menu.active, .toggle {
+        display: block;
+        padding: 0.5em;
+    }
+
+    .menu li {
+        margin-bottom: 10px;
+    }
+
+    .menu li:last-child {
+        margin-bottom: 0; /* Remove margin-bottom for the last li element */
+    }
+
+    .toggle {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+}

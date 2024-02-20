@@ -60,10 +60,6 @@ nav a:hover {
     gap: 1em;
 }
 
-.menu li:first-child {
-    padding-left: 1em;
-}
-
 .toggle {
     font-size: 30px;
     display: none;
