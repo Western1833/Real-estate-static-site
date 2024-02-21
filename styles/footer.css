@@ -1,0 +1,36 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #FFF;
+    font-size: 18px;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.63em 1.56em;
+    background-color: rgb(17, 157, 157);
+}
+
+.top-bar span {
+    color: #FFF;
+}
+
+.top-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+.top-bar a {
+    color: #FFF;
+}
+
+.top-bar a:hover {
+    color: blue;
+}

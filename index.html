@@ -1,18 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/styles.css" />
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <title>Cars</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <title>Cars</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <a href="#"><img src="images/—Pngtree— car silhouette simple logo_3874452.png" alt="logo" /></a>
+    </div>
+    <div class="toggle">
+      <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+    </div>
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contacts</a></li>
+    </ul>
+  </nav>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script>
+    $(function () {
+      $(".toggle").on("click", function () {
+        if ($(".menu").hasClass("active")) {
+          $(".menu").removeClass("active");
+          $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+        } else {
+          $(".menu").addClass("active");
+          $(this)
+            .find("a")
+            .html("<ion-icon name='close-outline'></ion-icon>");
+        }
+      });
+    });
+  </script>
+
+  <section class="site-section">
+    <h1>Sell your car here!</h1>
+
+
+  </section>
+
+  <footer>
     <div class="top-bar">
       <span><ion-icon name="call-outline"></ion-icon>+133 423 454 678</span>
+
+      <p>Iliya Kashev &#174;</p>
       <ul>
         <li>
           <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
@@ -25,43 +67,8 @@
         </li>
       </ul>
     </div>
+  </footer>
 
-    <nav>
-      <div class="logo">
-        <a href="#"
-          ><img
-            src="images/—Pngtree— car silhouette simple logo_3874452.png"
-            alt="logo"
-        /></a>
-      </div>
-      <div class="toggle">
-        <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
-      </div>
-      <ul class="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contacts</a></li>
-      </ul>
-    </nav>
+</body>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
-    <script>
-      $(function () {
-        $(".toggle").on("click", function () {
-          if ($(".menu").hasClass("active")) {
-            $(".menu").removeClass("active");
-            $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
-          } else {
-            $(".menu").addClass("active");
-            $(this)
-              .find("a")
-              .html("<ion-icon name='close-outline'></ion-icon>");
-          }
-        });
-      });
-    </script>
-  </body>
 </html>
