@@ -6,7 +6,10 @@
   }
 
 .last-three-wrapper {
+    display: flex;
+    justify-content: space-evenly;
     border: 1px solid black;
     width: 50em;
     height: auto;
+    padding: 2em;
 }
