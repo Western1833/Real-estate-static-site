@@ -3,9 +3,17 @@
     display: flex;
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
-    padding: 1em;
+    max-width: 220px;
+    border: 1px solid black;
+    border-radius: 0.4em;
 }
 
-.card {
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card a {
+    text-align: center;
     border: 1px solid black;
 }
