@@ -3,17 +3,24 @@
     display: flex;
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
-    max-width: 220px;
+    max-width: 240px;
     border: 1px solid black;
     border-radius: 0.4em;
 }
 
 .card img {
     width: 100%;
-    height: auto;
+    height: 170px;
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    object-fit:contain;
 }
 
 .card a {
     text-align: center;
     border: 1px solid black;
+}
+
+.card input {
+    padding: 0.5em;
 }

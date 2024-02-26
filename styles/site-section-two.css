@@ -7,14 +7,21 @@
 
 .last-three-wrapper {
     display: flex;
-    justify-content: space-evenly;
-    border: 1px solid black;
-    width: 50em;
+    justify-content: space-between;
+    max-width: 800px;
     height: auto;
     padding: 2em;
+    border-radius: 0.4em;
+    gap: 1em;
 }
 
 .card-info-wrapper {
     display: flex;
     flex-direction: column;
 }
+
+.search-info-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
